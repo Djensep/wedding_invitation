@@ -1,3 +1,9 @@
+import { Button } from "@/shared/ui/Button/Button";
+
 export default function Home() {
-    return <div></div>;
+    return (
+        <div>
+            <Button>asd</Button>
+        </div>
+    );
 }
