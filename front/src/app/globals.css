@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("/fonts/Suisse-Intl-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("/fonts/Suisse-Intl-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("/fonts/Suisse-Intl-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("/fonts/Suisse-Intl-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --bg-black-600: #090a0a;
+    --bg-blue-600: #003366;
+    --bg-blue-500: #005fdb3d;
+    --bg-blue-400: #005fdb;
+    --bg-default: #193b670d;
+    --bg-white: #fff;
+
+    --text-primary-300: #005fc5;
+    --text-primary-400: #003366;
+    --text-primary-500: #1f2e3d;
+    --text-grey-500: #76889a;
+    --text-grey-400: #72777a;
+    --text-grey-300: #dedfe2;
+    --text-white: #fff;
+
+    --default-radius: 7px;
+    --modal-radius: 16px;
+
+    --font-regular: "SuisseIntl", sans-serif;
+    --font-medium: "SuisseIntl", sans-serif;
+    --font-bold: "SuisseIntl", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-regular), serif;
+}
+
+body {
+    background-color: #fff;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 998px;
+}
+
+button {
+    font-weight: 500;
+}
+
+.mainLayout {
+    padding-top: 70px;
+}
